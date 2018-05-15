@@ -1,0 +1,24 @@
+<div id="fileupload">
+    <form class="form-horizontal form-center" id="uploadForm" role="form" method="post" type="multipart/form-data" >
+            <div class="form-group">
+                <label for="inputFile" class="col-sm-3 control-label">File upload</label>
+                <div class="col-sm-9">
+                    <input type="file" id="file" name="file" class="form-control" accept="video/*,image/*" autofocus required >
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div id="uploadStatus"></div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-9 col-sm-offset-3">
+                    <div class="btn btn-primary btn-block" onclick="uploadFiles()">
+                        <i class="fa fa-upload fa-lg"></i>
+                        <span>  Upload to Cloud Storage</span>
+                    </div>
+
+            </div>
+        </form> <!-- /form -->
+
+</div>

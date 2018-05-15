@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<% include templates/head.ejs %>
+<body>
+
+
+<div class="container-fluid">
+
+    <div class="page-header">
+        <h1>Media</h1>
+        <div class="container col-md-12">
+            <span id="statusMsg" hidden></span>
+        </div>
+    </div>
+
+    <section name="uploadNew">
+        <% include templates/fileupload.ejs %>
+    </section>
+
+
+    <section name="existingFiles">
+        <div class="container text-center" id="existingFiles">
+
+
+
+        </div>
+    </section>
+
+
+</div>
+
+
+<% include templates/scripts.ejs %>
+<script src="/js/mediaUpload.js" type="text/javascript"></script>
+</body>
+<% include templates/foot.ejs %>
+</html>

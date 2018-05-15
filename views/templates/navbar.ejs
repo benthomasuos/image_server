@@ -1,0 +1,90 @@
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><img src="/images/mapp_logo.png" /></a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+          <li><a href="/powders"><i class="fa fa-chart"></i>  Powders</a></li>
+
+          <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Characterisation
+                  <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                  <li><a href="/characterisation/static">Static  <i class="fa fa-chart"></i></a></li>
+                  <li><a href="/characterisation/dynamic">Dynamic  <i class="fa fa-gear"></i></a> </li>
+              </ul>
+          </li>
+
+          <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Mechanical testing
+                  <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                   <li class="dropdown-submenu">
+                     <a class="test" tabindex="-1" href="#">Monotonic <span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                       <li><a tabindex="-1" href="/testing/monotonic/tensile">Tensile</a></li>
+                       <li><a tabindex="-1" href="/testing/monotonic/compression">Compression</a></li>
+                       <li><a tabindex="-1" href="/testing/monotonic/torsion">Torsion</a></li>
+                       <li><a tabindex="-1" href="/testing/monotonic/bend">Bend (3-4 point)</a></li>
+                       <li><a tabindex="-1" href="/testing/monotonic/impact">Impact</a></li>
+                     </ul>
+                   </li>
+
+                   <li class="dropdown-submenu">
+                     <a class="test" tabindex="-1" href="#">Dynamic <span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                       <li><a tabindex="-1" href="/testing/dynamic/linear">Fatigue</a></li>
+                       <li><a tabindex="-1" href="/testing/dynamic/bend">Bend (cyclic)</a></li>
+                     </ul>
+                   </li>
+
+
+
+                 </ul>
+          </li>
+
+          <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Processing
+                  <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                  <li><a href="/processing/atomisation">Atomisation  <i class="fa fa-filter"></i></a></li>
+                  <li><a href="/processing/pbf">Powder Bed Fusion  <i class="fa fa-gear"></i></a> </li>
+                  <li><a href="/processing/fast">FAST/SPS  <i class="fa fa-gear"></i></a> </li>
+              </ul>
+          </li>
+          <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Tools
+                  <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                  <li><a href="/processing/pbf/pyro"><i class="fa fa-thermometer-half"></i>  Aconity Pyrometer Viewer  </a></li>
+              </ul>
+          </li>
+
+
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://github.com/benthomasuos/Powder_Node/issues"><i class="fa fa-github"></i> Feedback</a></li>
+          <li ><a href="/logout"><i class="fa fa-sign-out" ></i> Logout</a></li>
+          <li ><a href="/account"><i class="fa fa-user-circle" ></i> My account</a></li>
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<div id="status" hidden></div>

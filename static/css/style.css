@@ -1,0 +1,301 @@
+
+html {
+    overflow-x: hidden;
+}
+
+footer {
+    position: static;
+    width: 100%;
+    bottom: 0;
+    background: #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif
+}
+
+body {
+
+    color: #444;
+    font-family: "Raleway", sans-serif;
+    overflow-x: hidden;
+}
+
+
+input.form-control, select.form-control {
+    -webkit-box-shadow: none ;
+    -moz-box-shadow: none ;
+    box-shadow: none ;
+    border: #ccc solid 1px;
+    border-radius: 0px;
+    margin-bottom: 6px;
+    background: #f9f9f9
+
+}
+input.form-control[type="text"]::placeholder,input.form-control[type="email"]::placeholder, input.form-control[type="password"]::placeholder, select.form-control::placeholder {
+    color: #eee
+}
+
+
+input.form-control[type="text"]:focus,input.form-control[type="email"]:focus, input.form-control[type="password"]:focus, select.form-control:focus {
+    box-shadow: none;
+    border: #aaa solid 1px
+}
+
+#database-stats {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    margin: 0;
+}
+
+
+
+.inverse{
+    background: #333;
+    color: #ddd;
+}
+
+.mapp-blue{
+    background: #00c8fb
+
+}
+
+.mapp-orange{
+    background: #ff7929
+
+}
+
+section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+a.disabled {
+    pointer-events: none;
+}
+
+.invalid {
+    border: #d44
+
+}
+
+.video-thumb{
+    float:left;
+    width: 200px;
+    height: 160px;
+    padding: 4px;
+    font-size: 0.6em;
+    border: solid black 1px;
+    margin: 8px
+}
+.video-thumb > video{
+    width: 180px;
+    height: 120px
+}
+
+
+
+.form-control{
+    border: none;
+    border-bottom: solid #eee 1px;
+    box-shadow: 1px 2px 2px #ddd;
+    margin-bottom: 4px;
+
+}
+
+.form-control:hover{
+    background: #eee
+
+}
+
+.form-control:focus{
+    border: none;
+    box-shadow: 0 0 2px #00c8fb ;
+
+}
+
+.input-group-addon{
+    background: none;
+    border: none;
+
+}
+
+
+
+
+.loader {
+    border: 6px solid #f3f3f3; /* Light grey */
+    border-top: 6px solid rgba(255, 121, 41, 0.3);
+    border-bottom: 6px solid rgba(0, 200, 251, 0.3);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+
+#existingFiles{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+.img-thumb{
+    margin: 4px;
+
+}
+
+.img-thumb > img{
+    width: 200px;
+    transform: rotate(0deg)
+}
+
+.img-thumb > .img-desc {
+    width: 200px;
+    text-align: center;
+    font-size: 0.8em
+
+}
+
+
+#fileupload{
+    border: 1px solid #ddd;
+    padding: 10px;
+    min-width: 30%;
+    max-width: 50%;
+}
+
+
+
+
+.bordered {
+    border: solid 1px #ddd;
+    padding-bottom: 20px
+}
+
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: space-around;
+    justify-content: center;
+    width: 100%
+
+}
+
+
+
+
+.flex-sub{
+    width: 30%;
+}
+
+
+.gallery-fullwidth{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+input[type="number"]::-webkit-inner-spin-button{
+    height: 10px;
+
+
+}
+
+
+.btn-upload{
+    text-align: center;
+    background: #3f8;
+    color: #222;
+    border-radius: 4px;
+    border: solid 1px #3f8;
+    width: 50px;
+
+}
+
+
+.upload-row {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.upload-row > input[type="file"]{
+    width: 80%
+
+}
+
+.upload-row > label{
+    width: 100%
+
+}
+
+.thumb-title{
+    width: 100%;
+    font-size: 0.8em;
+    font-weight: 600;
+    text-align: center;
+
+
+}
+
+div > svg{
+    text-align: center
+}
+
+
+#status{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    padding-left: 50px;
+    background: #00c8fb;
+    color: #333;
+    z-index: 999
+
+}
+
+
+
+
+
+
+
+
+
+
+
